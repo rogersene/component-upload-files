@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-   <img alt="Upload image" src="https://github.com/rogersene/IgNews/blob/master/public/images/logo.png](https://github.com/rogersene/component-upload-image/blob/main/public/assets/images/screen_component.png">
+   <img alt="Upload image" src="https://github.com/rogersene/component-upload-image/blob/main/public/assets/images/screen_component.png?raw=true">
 </h1>
 
 
