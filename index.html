@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./public/styles/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Inter:wght@400;500;700&family=Montserrat:ital,wght@1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Roboto+Flex:wght@200;400&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Upload de imagens</title>
+</head>
+
+<body>
+    <div id="app">
+        <section class="drag-files">
+            <i class="ph ph-cloud-arrow-up"></i>
+            <h3>Importe seus arquivos</h3>
+            <p>Arraste ou clique para fazer upload</p>
+
+            <input type="file">
+
+        </section>
+
+        <section class="files">
+            <div class="box uploading">
+                <div class="icon">
+                    <i class="ph-fill ph-file"></i>
+                </div>
+                <div class="info">
+                    <div class="filename">Scann_158.pdf</div>
+                    <div class="filesize">
+                        <span>30 MB</span>
+                        <span>74 MB</span>
+                    </div>
+                    <div class="bar">
+                        <progress value="46" max="100"></progress>
+                        <span>46%</span>
+                    </div>
+                </div>
+                <div class="action">
+                    <i class="ph ph-x"></i>
+                </div>
+            </div>
+            <div class="box done">
+                <div class="icon">
+                    <i class="ph-fill ph-file"></i>
+                </div>
+                <div class="info">
+                    <div class="filename">README.md</div>
+                    <div class="filesize">
+                        <span>12 KB</span>
+                    </div>
+                    <div class="bar">
+                        <progress value="100" max="100"></progress>
+                        <span>100%</span>
+                    </div>
+                </div>
+                <div class="action">
+                    <i class="ph ph-x"></i>
+                </div>
+            </div>
+            <div class="box error">
+                <div class="icon">
+                    <i class="ph-fill ph-file"></i>
+                </div>
+                <div class="info">
+                    <div class="filename">picture1.jpeg</div>
+                    <div class="filesize">
+                        <span>6.3 MB</span>
+                    </div>
+                    <div class="bar">
+                        <progress value="0" max="100"></progress>
+                        <span>Erro</span>
+                    </div>
+                </div>
+                <div class="action">
+                    <i class="ph ph-arrow-counter-clockwise"></i>
+                </div>
+            </div>
+    </div>
+
+    </div>
+
+    </section>
+
+    </div>
+    <script src="./public/scripts/drag-files.js">
+
+    </script>
+</body>
+
+</html>
