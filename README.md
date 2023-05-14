@@ -6,14 +6,6 @@
    <img alt="Upload image" src="https://github.com/rogersene/component-upload-image/blob/main/public/assets/images/screen_component.png?raw=true">
 </h1>
 
-
-  <a href="#-tecnologias">Tecnologias :sparkles:</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
-  <a href="#-projeto">Projeto  :computer:</a>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>
-  
-  
- 
-<br>
-
 <br>
 
 
